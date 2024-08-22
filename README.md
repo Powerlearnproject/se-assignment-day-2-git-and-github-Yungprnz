@@ -11,19 +11,17 @@ Version control helps in maintaining project integrity by facilitating collabora
 
 To set up a new reposiory on GitHub, you have to do the following:
 - Create an account on GitHub.com
-- Initialize a local repository usin the command **_git init_**
-- Add and commit changes using the commands **_git add_** then **_git commit -m "commit message"_**
-- Create a new repository on GitHub.com and copy the repository URL and link your local    repository using the command **_git remote add origin <repo_url>_** 
-- Push local changes to remote repository on GitHub using the command **_git push origin main_**
+- Click on the + icon on the Dashboard
+- Select New repository
+- Enter the repository name and description
+- Select radio button for public or private repository
+- You can add a README file
+- Add gitignore and License (optional)
+- Click "Create repository"
 
 Important decisions to make during the process include:
 -  Repositority name and visibility (public or private)
--  Issue and pull request workflow
--  Collaboration and access control
--  Branching strategy
--  GitHub actions (automated workflows)
 -  Documentation and README file
--  Code of conduct
 
 ## Discuss the importance of the README file in a GitHub repository. What should be included in a well-written README, and how does it contribute to effective collaboration?
 
@@ -70,8 +68,17 @@ Steps to make your first commit to a GitHub repository:
 -  Initialize the repository using **_git init_**
 -  Add files to the staging area with **_git add ._**
 -  Commit the changes using **_git commit -m "commit message"_**
--  Set up a remote repository on GitHub with **_git remote add origin [https://origin       address]_**
+-  Set up a remote repository on GitHub with **_git remote add origin [https://origin address]_**
 -  Push local changes using **_git push origin main/master_**
+
+A commit is a snapshot of the state of the project at a specific point in time. It captures the changes that have been made to the code base. Commit helps track the history of the project and to collaborate with team members.
+
+Benefits of commits include:
+- Version control
+- Collaboration
+- Documentation
+- Continuous integration
+- Versioning
 
 ## How does branching work in Git, and why is it an important feature for collaborative development on GitHub? Discuss the process of creating, using, and merging branches in a typical workflow.
 
